@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg,red,blue);
+  padding: 5px;
+  color: white;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#sites-bloqueados-list {
+  margin-top: 20px;
+  padding: 10px;
+  background: linear-gradient(45deg,blue,red);
+}
+
+#sites-bloqueados-list li {
+  margin-bottom: 5px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+ 
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  color: white;
+  padding: 5px;
+ 
+}
+
+li button {
+  margin-left: 10px;
+  padding: 2px 5px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
